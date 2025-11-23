@@ -1,0 +1,1 @@
+This here is the repository for the Final Integrated Project in Semester 1. We have to create various different elements for the Final Integrated Project: six wireframes, four HTML files, and a GitHub Repo.
