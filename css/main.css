@@ -154,6 +154,21 @@ body {
     grid-row: 2/3;
     align-self: end;
  }
+
+ .hero-room-h2 {
+    background: rgb(255, 255, 255);
+    padding: 15px 15px;
+    font-size: 28px;
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    align-self: end;
+ }
+
+ #heading-2 {
+   font-size: 28px;
+   padding: 15px 15px;
+   text-align: center;
+ }
  
  .hero-img-h2 span {
     color: #9a2018;
