@@ -143,7 +143,8 @@ body {
  }
 
  .book-now:hover {
-    box-shadow: inset 0px -120px 0px 0px rgb(196, 28, 28);
+    box-shadow: inset 0px -120px 0px 0px #fff;
+    color: #9a2018;
  }
 
  .hero-img-h2 {
@@ -447,3 +448,103 @@ body {
     margin-top: 15px;
     padding-top: 20px;
  } 
+
+ .rooms-list {
+    padding-top: 20px;
+ }
+ 
+ .rooms-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+ }
+ .rooms-list li {
+    margin-bottom: 15px;
+ }
+
+ /* 10. --- Activities Page --- */
+
+ .activities-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+ }
+
+ /* 11 --- Spa Page --- */
+
+ .spa-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+ }
+
+ /* Rooms Desktop CSS */
+
+#nav-desktop {
+    background-color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    background-size: cover;
+}
+
+#desktop-list {
+   list-style-type: none;
+   padding: 0;
+   text-align: center;
+}
+
+#desktop-list li {
+   display: inline;
+   margin: 10px;
+}
+
+.rooms-list-desktop {
+    padding-top: 20px;
+ }
+ 
+.rooms-list-desktop {
+    list-style: none;
+    margin: 20;
+    padding: 20;
+ }
+.rooms-list-desktop-li {
+    margin-bottom: 15px;
+}
+
+.hero-desktop-overlap {
+   grid-row: 1/1; 
+}
+
+.checkbox {
+display: inline;
+}
+
+.decorated-heading::after {
+    content: "❤️";
+    margin-left: 5px;
+}
+
+input[type="checkbox"]:checked + span:after {
+    content: "💕";
+}
+
+.submit {
+    background-color: #9a2018;
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 500ms ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    transition:all 1s ease;
+    cursor: pointer;
+    grid-row: 1/2;
+    height: 67px;
+ }
+
+ .submit:hover {
+    box-shadow: inset 0px -120px 0px 0px #fff;
+    color: #9a2018;
+ }
